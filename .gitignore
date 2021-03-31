@@ -1,0 +1,8 @@
+#ide
+.idea
+
+#dependencies
+/node_modules
+
+#system files
+.DS_Store
