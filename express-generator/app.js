@@ -39,19 +39,19 @@ app.use(function(err, req, res, next) {
 });
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
+  res.send('Hello World!');
+});
 
 app.post('/', function (req, res) {
-  res.send('Got a POST request')
-})
+  res.send('Got a POST request');
+});
 
 app.put('/user', function (req, res) {
-  res.send('Got a PUT request at /user')
-})
+  res.send('Got a PUT request at /user');
+});
 
 app.delete('/user', function (req, res) {
-  res.send('Got a DELETE request at /user')
-})
+  res.send('Got a DELETE request at /user');
+});
 
 module.exports = app;
