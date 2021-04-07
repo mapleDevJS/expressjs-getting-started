@@ -1,9 +1,9 @@
 const express = require('express');
-const app = express();
+const indexRouter = require('./routes/index');
 
 const PORT = 1338;
 
-const indexRouter = require('./routes/index');
+const app = express();
 
 app.use('/', indexRouter);
 
